@@ -190,10 +190,8 @@ if __name__ == "__main__":
     logger.info("Bot iniciado. Esperando comandos...")
     try:
         while True:
-            get_database_id()
-            add_database_access('152.201.46.165')
             listen_commands()
-            # time.sleep(5)  # Esperar 5 segundos antes de revisar de nuevo
+            time.sleep(5)
     except KeyboardInterrupt:
         logger.info("Bot detenido manualmente. Saliendo...")
     except Exception as e:
