@@ -48,7 +48,7 @@ Si hay un error:
 
 1. **Clonar el repositorio**:
  ```bash
-     git clone https://github.com/tuusuario/bot-slack-digitalocean.git
+     https://github.com/DiegoV1105/slack_bot_ip_control.git
      cd bot-slack-digitalocean
 ```
 2. **Instalar dependencias**:
